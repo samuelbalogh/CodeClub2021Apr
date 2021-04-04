@@ -75,16 +75,16 @@ RECAP - What have we learned on the first session
 
 ### We had a look at a few types of data:
 
-- int
+- `int`
     "whole numbers"
     Example: 1, 7, 42
-- float
+- `float`
     numbers with decimal point
     Example:  0.2, 5.0, 21972.129871
-- boolean
+- `boolean`
     Values representing "Boolean logic": True/False. 
     True and False are the only boolean values.
-- strings
+- `str` (string)
     Textual data types. They are between single or double quotes/
     Example: "padlizsankrém", 'spagetti', 'rántott hús'
     Multi-line strings can be defined between triple quotes.
@@ -94,8 +94,8 @@ RECAP - What have we learned on the first session
 ### The type() built-in function
 
 You can check the data type of a value using the built-in "type" function:
-- type('pizza') will tell you that 'pizza' is a string, 
-- type(1.0) will tell you that 1.0 is a float.
+- `type('pizza')` will tell you that 'pizza' is a string, 
+- `type(1.0)` will tell you that 1.0 is a float.
 
 
 ## Variables
@@ -103,7 +103,7 @@ You can check the data type of a value using the built-in "type" function:
 Varialbes hold some kind of data. 
 To define a variable, you just have to type the name of the variable, and equality sign, and the value of it:
 
-my_favourite_food = 'anything except coriander!'
+`my_favourite_food = 'anything except coriander!'`
 
 The equality sign here stands for the "assignment" - we assign the string 'anything except coriander!' to the variable my_favourite_food
 
@@ -114,7 +114,7 @@ Variables are used to store data in your program, so that you can re-use them la
 We can write functions to make our code re-usable. For example, we might want to reuse a function that calculates some value based on some input.
 
 We use the def keyword to define a function.
-"""
+
 
 
 

@@ -36,16 +36,6 @@ Approach:
 - functions (definition, parameters, function calls, return values)
 - built-in functions
 
-
-## Lesson 2
-
-- Flow control: if/else
-- Loops: for, while
-  - breaking out of loops
-- 
-
-
-"""
 How to run Python code?
 
 You can execute Python code in two ways:
@@ -61,10 +51,12 @@ DEMO:
   - use Python as a calculator
 
 
-In Repl.it, you can do both of those: you can type to a file and execute it, or you can type directly in to the interactive interpreter on the right hand side.
-Repl.it makes it easy to write, share and collaborate on code, that's why we use it - you can install Python on your computer if you want to. 
-Later, we might do more complex exercises that way. 
+## Lesson 2
 
+- Flow control: if/else
+- Loops: for, while
+  - breaking out of loops
+- TBD
 
 RECAP - What have we learned on the first session
 

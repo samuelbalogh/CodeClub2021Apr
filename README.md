@@ -9,7 +9,7 @@ Approach:
 
 - minimalistic (no external tools other than Python and a text editor)
 - focusing on the basics 
-- perphas later look into web development, if there is interest for it
+- perhaps later look into web development, if there is interest for it
 
 **Main** course content will be here on Github.
 

@@ -1,8 +1,15 @@
-# CodeClub
+# CodeClub 2021 April
 
 > 🚧 Under construction 🚧
 
-## CodeClub 2021 April
+
+## Basics
+
+Approach: 
+
+- minimalistic (no external tools other than Python and a text editor)
+- focusing on the basics 
+- perphas later look into web development, if there is interest for it
 
 **Main** course content will be here on Github.
 

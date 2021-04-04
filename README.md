@@ -15,6 +15,7 @@
 - [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
 - [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
 - [Python on Codeacademy](https://www.codecademy.com/learn/python)
+- [Python foundations](https://courses.spatialthoughts.com/python-foundation.html#hello-world)
 
 
 ### Lesson 1

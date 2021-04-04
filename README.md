@@ -4,7 +4,7 @@
 
 ## CodeClub 2021 April
 
-**Mai** course content will be here on Github.
+**Main** course content will be here on Github.
 
 **Additional** course content will be include articles, blog posts, videos and tutorials. 
 

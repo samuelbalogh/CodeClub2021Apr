@@ -5,11 +5,17 @@
 
 ## Basics
 
-Approach: 
+### Approach: 
 
 - minimalistic (no external tools other than Python and a text editor)
-- focusing on the basics 
+- focusing on the basics
+
+### Topics
+
+- Python fundamentals
 - perhaps later look into web development, if there is interest for it
+
+### Course content
 
 **Main** course content will be here on Github.
 

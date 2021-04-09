@@ -16,14 +16,14 @@ Table of contents
 ## Whitespace
 
 For Python, **whitespaces** (spaces and tabs) in our code are significant.  
-They are used to declare a "code block" - for example, the code of a function body is separated from the outer code by one level of indentation.
+They are used to declare a "code block" - for example, the code of a function body is separated from the outer code by one level of **indentation**.
 
 ```
 def find_meaning_of_life():
     return 42
 ```
 
-As another example, the bodies of if/else statements are also indented by one level:
+As another example, the bodies of `if/else` statements are also indented by one level:
 
 ```
 favourite_food = 'beer'
@@ -36,7 +36,7 @@ else:
     print('Sad! :(')
 ```
 
-For whitespace, you can use either spaces or tabs (but not both).
+For whitespace, you can use either **spaces** or **tabs** (but not both).
 
 ## Comments
 
@@ -48,7 +48,7 @@ For whitespace, you can use either spaces or tabs (but not both).
 
 ## Variables
 
-We declare variables by assigning a **value** to a **name**:
+We declare variables by assigning a **value** to a **name**:  
 We do this to be able to **re-use** these values in our code, and so we don't have to repeat ourselves.
 
 ```

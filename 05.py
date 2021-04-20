@@ -31,6 +31,7 @@ for item in my_cocktail_bar:
     print(item)
 
 
+
 # can I make an old fashioned cocktail?
 i_can_make_it = True
 
@@ -41,12 +42,14 @@ for ingredient in old_fashioned:
 print(i_can_make_it)
 
 
+
 # can I make a margarita cocktail?
 for ingredient in margarita:
     if ingredient not in my_cocktail_bar:
         i_can_make_it = False
 
 print(i_can_make_it)
+
 
 
 # ASIDE: strings and lists
@@ -58,10 +61,15 @@ my_string = my_string.strip('!')
 
 # we can join all elements of a list with the .join() method:
 food_at_home = ['bread', 'cucumber', 'curly kale', 'soba noodles', 'miso soup']
-food_at_home = ' '.join(food_at_home)
+foods = ' '.join(food_at_home)
+
+# we can join them using any character:
+foods = ', '.join(food_at_home)
+
 
 # we can split a string into a list
-
+my_string = 'bread cucumber potato banana'
+my_list = my_string.split()
 
 
 # opening a file

@@ -1,3 +1,5 @@
+from nltk.stem import SnowballStemmer
+
 my_cocktail_bar = [
     'gin', 'tonic', 'lemon', 'lemon peel', 'lemon juice',
     'water', 'whisky', 'angostura bitters',
@@ -109,7 +111,8 @@ with open('kenyer_bor.txt', 'r') as text_file:
 
 # counting words in a file, excluding common words
 word_count = {}
-with open('kenyer_bor.txt', 'r') as text_file:
+stemmer = SnowballStemmer('hungarian')
+with open('kosztol.txt', 'r') as text_file:
     for line in text_file:
         for word in line.split():
             word = word.lower()
@@ -117,7 +120,16 @@ with open('kenyer_bor.txt', 'r') as text_file:
                 word = word.strip(trailing_char)
             if word in common_words:
                 continue
+            try:
+                word =  stemmer.stem(word)
+            except:
+                continue
             if word not in word_count:
                 word_count[word] = 1
             else:
                 word_count[word] += 1
+
+def get_n_most_frequent_words(word_count, n=10):
+    sorted_words = sorted(list(word_count.items()), key=lambda item: item[1], reverse=True)
+    return sorted_words[:n]
+

@@ -546,9 +546,6 @@ freq_words_file.close()
 ```
 
 
-
-Another example:
-
 A better way of opening a file is using the `with` keyword - this way, we don't have to close it, as it will be closed automatically:
 
 ```

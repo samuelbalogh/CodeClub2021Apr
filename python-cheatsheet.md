@@ -10,6 +10,7 @@ Table of contents
 - [Data types](#data-types)
 - [Functions](#functions)
 - [Loops](#loops)
+- [Working with files](#Working with files)
 
 <!-- tocstop -->
 

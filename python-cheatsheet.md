@@ -430,6 +430,13 @@ A function definition can look like the following:
 
 ```
 def multiply(x, y):
+    return x * y
+```
+
+A more complicated function might contain multiple lines, `if`/`else` statements, and any other code:
+
+```
+def multiply(x, y):
     if type(x) not in [int, float] or type(y) not in [int, float]:
         print("Not a number, cannot multiply!")
         return

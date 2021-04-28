@@ -259,6 +259,23 @@ You can **slice** them, just like strings:
 [2, 3]
 ```
 
+The third argument of the slice operator makes it possible to **skip items**, or to move through the list **backwards**:
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[0:3:2]
+[1, 3]
+```
+
+You can use `my_list[::-1]` to traverse the list backwards `[::-1]` is a shorthand for "_from the beginning, to the end, in steps of minus one_":
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[::-1]
+[3, 2, 1]
+```
+
+
 You can **index** them:
 
 ```

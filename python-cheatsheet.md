@@ -426,7 +426,7 @@ set_1.difference(set_2)
 
 We write functions to be able to **re-use** our code. If we have defined a function, we can use it later any time we want, for as many times we want.
 
-A function definition can look like the following:
+A function **definition** can look like the following:
 
 ```
 def multiply(x, y):
@@ -445,7 +445,7 @@ def multiply(x, y):
 
 ```
 
-A function call actually executes the function:
+A function **call** actually executes the function:
 
 ```
 >>> multiply(5, 3)

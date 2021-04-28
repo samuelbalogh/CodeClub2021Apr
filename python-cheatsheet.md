@@ -526,6 +526,18 @@ for food in foods:
         print(food) 
 ```
 
+#### break
+
+The `break` statement can be used to break out of the loop.
+
+The following snippet will pint `steak` and `broccoli` because of the break:
+
+```
+for food in foods:
+  print(food)
+  if food == 'broccoli':
+    break
+```
 
 ## Working with files
 

@@ -526,4 +526,40 @@ for food in foods:
 ```
 
 
+## Working with files
+
+Opening a file is done with the `open` function:
+
+`freq_words_file = open('hungarian.txt', 'r')`
+
+You can **iterate** over the lines of a file:
+
+```
+common_words = []
+
+for word in freq_words_file:
+    common_words.append(word.strip())
+
+# we have to close the file after we are done with it
+freq_words_file.close()
+```
+
+
+
+Another example:
+
+A better way of opening a file is using the `with` keyword - this way, we don't have to close it, as it will be closed automatically:
+
+```
+common_words = []
+
+with open('hungarian.txt', 'r') as freq_words_file:
+    for word in freq_words_file:
+        common_words.append(word.strip())
+```
+
+
+
+
+
 

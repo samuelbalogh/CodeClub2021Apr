@@ -451,9 +451,9 @@ A function call actually executes the function:
 Some imporant points:
 
 - The definition must start with the `def` keyword
-- After the `def` keyword, we have to give a **name** to our function
-- After the name, there must to be an opening parenthesis ( `(` character), after which, there can be zero or more **arguments**, then a closing parenthesis, then a colon (`:`) character. 
-- The function body is **indented** by one level
+- After the `def` keyword, we have to give a **name** to our function. The name should be in English, describing what the function does. The name has to be in `snake_case`, eg.: `multiply_by_two`
+- After the name, there must to be an opening parenthesis ( `(` character), after which, there can be zero or more **arguments**, then a closing parenthesis (`)`), then a colon (`:`) character. 
+- The function body is **indented** by one level - this is where we put the logic of the function
 - Usually a function has a **return value** which is denoted by the `return` statement. However, it's not obligatory to have a return value - a function can just return nothing, or print something, or modify something (we will look at examples for each of these later).
 
 Arguments can be considered as the "input" to your function - you get some data in the arguments, you do something with them in the function body, and you return something.

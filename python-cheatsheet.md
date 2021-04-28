@@ -441,7 +441,7 @@ set_1.difference(set_2)
 
 ## Functions
 
-We write functions to be able to **re-use** our code. If we have defined a function, we can use it later any time we want, for as many times we want.
+We write functions to be able to **re-use** our code. If we have defined a function, we can use it later any time we want, for as many times as we want.
 
 A function **definition** can look like the following:
 

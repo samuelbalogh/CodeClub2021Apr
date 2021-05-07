@@ -252,13 +252,23 @@ You can put any data type into a list.
 
 Lists are very versatile, you can do a lot of things with them.
 
-You can **slice** them, just like strings:
+You can **slice** them, just like strings - remember the slicing operator `[start:end:step]`:
 
 ```
 >>> my_list = [1, 2, 3]
 >>> my_list[1:3]
 [2, 3]
 ```
+
+To get all the items except the last, you can use `[:-1]` which is shorthatd for `[0:-1:1]` (from the zeroth element, until the minus first, in steps of one):
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[:-1]
+[1, 2]
+```
+
+
 
 The third argument of the slice operator makes it possible to **skip items**, or to move through the list **backwards**:
 

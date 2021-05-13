@@ -312,7 +312,7 @@ You can remove an item with the `remove()` method, and you can do a lot of other
 
 ### Dictionaries
 
-**Dictionaries store key-value pairs**.
+Dictionaries store **key-value pairs**.
 
 ```
 favorite_cities = {'Tomi': 'Tokyo', 'Judit': 'Oslo'}

@@ -24,7 +24,7 @@ def find_meaning_of_life():
     return 42
 ```
 
-As another example, the bodies of `if/else` statements are also indented by one level:
+As another example, the bodies of `if/else` statements are also **indented** by one level:
 
 ```
 favourite_food = 'beer'
@@ -49,14 +49,14 @@ For whitespace, you can use either **spaces** or **tabs** (but not both).
 
 ## Variables
 
-We declare variables by assigning a **value** to a **name**:  
+We **declare** variables by assigning a **value** to a **name**:  
 We do this to be able to **re-use** these values in our code, and so we don't have to repeat ourselves.
 
 ```
 favourite_food = 'mac and cheese'
 ```
 
-In the above example, we have assigned the value `mac and cheese` to the name `favourite_food`.
+In the above example, we have assigned the **value** `mac and cheese` to the **name** `favourite_food`.
 
 
 A variable can be of any data type. In the above example, the `favourite_food` variable is a string. In the following example, we assing an integer type to the variable named `meaning_of_life`:  
@@ -312,7 +312,13 @@ You can remove an item with the `remove()` method, and you can do a lot of other
 
 ### Dictionaries
 
-Official [Python docs here](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+**Dictionaries store key-value pairs**.
+
+```
+favorite_cities = {'Tomi': 'Tokyo', 'Judit': 'Oslo'}
+```
+
+> Official [Python docs here](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
 
 This is an empty dictionary:
 

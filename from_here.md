@@ -73,7 +73,7 @@ Pros of being a developer
 
 Cons
 
-- it can be very comples
+- it can be very complex
 - you rarely feel like you have finished something - the work is always ongoing, there is always ongoing development
 - it's a huge area and it feels overwhelming and it can feel like you will never learn it properly
 - it can feel intimidating and can make you feel slow/unintelligent

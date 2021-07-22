@@ -30,11 +30,13 @@
 - learn Flask - write a simple web server serving a static HTML file, then go from there
 - learn about the unittest module and learn how to use it
 - do the challenges on [Rosalind.info](http://rosalind.info/problems/list-view/)
+- find more resources [here](https://samu.space/resources-for-learning-python/)
 
 ### Programming in general
 
 - learn about data structures and algorithms [here](https://runestone.academy/runestone/books/published/pythonds/index.html)
 - (optional) learn about [design patterns](https://github.com/faif/python-patterns)
+- if you want to go deeper, here is a detailed list of topics that are worth learning about: [what to learn as a developer](https://samu.space/backenddevareas/#programming)
 
 ### Tools, technologies
 

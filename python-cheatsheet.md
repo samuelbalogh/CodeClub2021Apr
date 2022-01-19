@@ -269,7 +269,6 @@ To get all the items except the last, you can use `[:-1]` which is shorthatd for
 ```
 
 
-
 The third argument of the slice operator makes it possible to **skip items**, or to move through the list **backwards**:
 
 ```
